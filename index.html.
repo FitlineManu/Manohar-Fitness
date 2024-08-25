@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manohar's Online Personal Fitness Training</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .intro, .services, .testimonials, .contact {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .services li {
+            margin: 10px 0;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #1abc9c;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Manohar's Online Personal Fitness Training</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>
+                Hi, I'm Manohar, a certified personal fitness trainer with a passion for helping individuals achieve their
+                fitness goals through personalized online training programs. With years of experience in the fitness
+                industry, I offer tailored workout plans that fit your unique needs, whether you're looking to build
+                muscle, lose weight, or just maintain a healthy lifestyle.
+            </p>
+        </section>
+
+        <section class="services">
+            <h2>My Services</h2>
+            <ul>
+                <li>Personalized Workout Plans</li>
+                <li>Nutrition Guidance</li>
+                <li>Live Virtual Training Sessions</li>
+                <li>Ongoing Support and Motivation</li>
+            </ul>
+        </section>
+
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <p>"Manohar's online training has transformed my fitness journey. His customized plans are easy to follow and
+                incredibly effective!" - Client A</p>
+            <p>"The support and guidance from Manohar have been amazing. I've seen great results and feel more confident
+                than ever." - Client B</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Ready to take your fitness to the next level? Get in touch!</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Manohar's Online Personal Fitness Training. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
